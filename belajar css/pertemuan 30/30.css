@@ -1,0 +1,11 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 50px auto;
+    /* box shadow: offset-x offset-y blur-radius spread color */
+    box-shadow: 10px 10px 30px 5px blue;
+   }
+   
+   
+   

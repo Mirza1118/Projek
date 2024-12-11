@@ -1,0 +1,41 @@
+nav {
+    width: 900px;
+    margin: auto;
+    background-color: #a16b4c;
+   }
+   ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+   }
+ul li{
+  display: inline-block; /*agar menu berjejer ke samping*/
+}
+ul li a{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+display: block;
+}
+.submenu {
+ background-color: #a16b4c;
+ display: none;
+ position: absolute;
+ padding: 0;
+}
+ul li:hover .submenu {
+ display: block;
+}
+.submenu li{
+  display: block; /*agar submenu menjadi berjejer kebawah*/
+}
+
+.submenu li a {
+    padding: 10px;
+    color: white;
+   }
+   .submenu li a:hover {
+    background-color: white;
+    color: #a16b4c;
+   }
+   

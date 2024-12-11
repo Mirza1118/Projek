@@ -1,0 +1,14 @@
+.kotak {
+    width: 200px;
+    height: 100px;
+    background-color: #007fff;
+    margin: 200px auto;
+   }
+   
+   .kotak:hover {
+    transform: rotate(-45deg); /*mengubah letak objek*/
+    transform: scale(3); /*mengubah objek menjadi lebih besar*/
+   }
+
+      
+   

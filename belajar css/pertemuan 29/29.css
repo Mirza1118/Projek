@@ -1,0 +1,87 @@
+.animation {
+    width: 300px;
+    height: 30px;
+    background-color: #007fff;
+    margin: 30px;
+   }
+   @keyframes warna {
+    0% {
+     background-color: coral;
+    }
+    30% {
+     background-color: red;
+    }
+    80% {
+     background-color: chartreuse;
+    }
+    100% {
+     background-color: yellow;
+    }
+   }
+   
+   
+   .animation {
+    width: 300px;
+    height: 30px;
+    background-color: #007fff;
+    margin: 30px;
+   
+    animation-name: warna;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation: warna 5s linear infinite alternate;
+   }
+   @keyframes warna {
+    0% {
+     background-color: coral;
+     width: 100px;
+    }
+    
+ 30% {
+    background-color: red;
+    width: 300px;
+    }
+    80% {
+    background-color: chartreuse;
+    width: 600px;
+    }
+    100% {
+    background-color: yellow;
+    width: 800px;
+    }
+   }
+   
+   .container {
+    width: 200px;
+    height: 20px;
+    background-color: #ddd;
+    margin: 50px auto;
+    border-radius: 10px;
+   }
+   .loader {
+    width: 10px;
+    height: 20px;
+    background-color: #007fff;
+    border-radius: 10px;
+    animation: loader 2s linear infinite reverse;
+   }
+
+   @keyframes loader {
+    0% {
+     width: 0;
+    }
+    50% {
+     width: 200px;
+    }
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+      

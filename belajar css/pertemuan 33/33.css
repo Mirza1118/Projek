@@ -1,0 +1,14 @@
+.fas {
+    font-size: 50px;
+    color: blue;
+  }
+  
+  .icon .fas {
+    font-size: 50px;
+    color: blue;
+  }
+  .icon .fab {
+    font-size: 50px;
+    color: red;
+  }
+    

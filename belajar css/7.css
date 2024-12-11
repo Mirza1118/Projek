@@ -1,0 +1,53 @@
+* {
+    padding:0px;
+    margin:0px
+    }                            
+.capital {
+	text-transform: capitalize;
+}
+.uppercase {
+ 	text-transform: uppercase;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+h2 {
+     text-align: center;
+    }
+    p {
+    text-align: justify;
+    background-color:greenyellow;
+    width:200px;    
+    height:200px;
+    padding: 20px;
+    margin: 20px;
+
+    }
+    .p1 {
+        line-height: 40px; 
+        }
+        .p2 {
+         text-indent: 30px ;
+         margin-left: 20px;
+         margin-top:30px;
+         margin: auto;   
+        }
+        .container {
+            background-color: blue;
+             width: 250px;
+            height: 800px;
+            margin:auto;
+             padding: 20px;
+            
+            }
+            .kotak {
+                width: 200px;
+                 height: 200px;
+                border: 1px solid navy;
+                    margin: auto;
+                    border-radius: 100%;                
+}
+ hr {
+    border: 30px solid blanchedalmond
+    }
+    
